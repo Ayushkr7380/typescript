@@ -17,3 +17,13 @@ console.log(n1);
 //boolean
 var isBoy = true;
 console.log(isBoy);
+// ------ when to use :<variable type> ------ 
+var hero;
+function heroname() {
+    return "IronMan";
+}
+hero = heroname();
+//any 
+//any varaible is used when you don't wanna define any type to a varaible 
+var name = 123;
+console.log(name);

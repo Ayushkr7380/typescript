@@ -30,5 +30,10 @@ function heroname(){
 }
 hero = heroname();
 
+//any 
+//any varaible is used when you don't wanna define any type to a varaible 
+
+let name :any = 123
+console.log(name);
 
 export {}
