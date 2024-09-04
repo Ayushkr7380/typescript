@@ -11,4 +11,9 @@ console.log(roll);
 let price:number = 200.45;
 console.log(price);
 
+//boolean
+
+let isBoy:boolean = true;
+console.log(isBoy);
+
 export {}
