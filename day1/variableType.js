@@ -7,8 +7,13 @@ console.log(name1);
 //In TypeScript we have number varaible , only number varaible , there is no float or int....
 var roll = 123;
 console.log(roll);
+var num;
+num = 2;
+console.log(num);
 var price = 200.45;
 console.log(price);
+var n1 = 123; //typescript is smart enough to detect that it is a number without putting :<varaible type> 
+console.log(n1);
 //boolean
 var isBoy = true;
 console.log(isBoy);

@@ -15,6 +15,9 @@ console.log(num)
 let price:number = 200.45;
 console.log(price);
 
+let n1 = 123 //typescript is smart enough to detect that it is a number without putting :<varaible type> 
+console.log(n1)
+
 //boolean
 
 let isBoy:boolean = true;
