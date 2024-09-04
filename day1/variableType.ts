@@ -8,6 +8,10 @@ console.log(name1);
 let roll:number = 123;
 console.log(roll);
 
+let num:number
+num = 2
+console.log(num)
+
 let price:number = 200.45;
 console.log(price);
 
