@@ -23,4 +23,12 @@ console.log(n1)
 let isBoy:boolean = true;
 console.log(isBoy);
 
+// ------ when to use :<variable type> ------ 
+let hero:string
+function heroname(){
+    return "IronMan"
+}
+hero = heroname();
+
+
 export {}
