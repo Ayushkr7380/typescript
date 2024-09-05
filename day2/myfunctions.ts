@@ -71,6 +71,7 @@ set1.map((s:string)=>{
 
 //void type
 //we can set the type to void in a function if we do not want to return anything ..
+
 function voidexample(val:string):void{
     console.log(val)
 }
@@ -78,6 +79,14 @@ voidexample("ayush")
 
 function consoleError(errMsg:string):void{
     console.log(errMsg);
+}
+
+//never type
+//some functions nnever returns a value
+//The never type represents a value which are never observed,In a return type,this means that the functions throws an expection or terminates execution of the program..    
+
+function handleError(errMsg:string):never{
+    throw new Error(errMsg)
 }
 
 export {}

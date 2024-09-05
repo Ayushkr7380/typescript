@@ -69,3 +69,9 @@ voidexample("ayush");
 function consoleError(errMsg) {
     console.log(errMsg);
 }
+//never type
+//some functions nnever returns a value
+//The never type represents a value which are never observed,In a return type,this means that the functions throws an expection or terminates execution of the program..    
+function handleError(errMsg) {
+    throw new Error(errMsg);
+}
