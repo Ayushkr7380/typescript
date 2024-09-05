@@ -43,4 +43,29 @@ let name = (nn:string):string =>{
     return nn
 }
 name('ayush')
+
+//array 
+//typescript is smart enough to detect that the value inside the array are strings..
+const heros = ['spiderman','batman','ironman'];
+heros.map(hero=>{
+    return `${hero} is best`
+})
+
+//we can return anything like number, boolean , string ..etc..
+const villians = ['ultron','joker','humans'];
+villians.map(vil=>{
+    return 12
+});
+
+//Also typescript is smart enough to detect which value is number ,string,boolean etc..
+const mixture = [12,'ayush',true]
+mixture.map(mix=>{
+    return mix
+});
+
+//Typescript is smart but we can explicitly mention the type ..
+const set1 = ['ayush','abhijeet','lucky','atul'];
+set1.map((s:string)=>{
+    return s;
+})
 export {}

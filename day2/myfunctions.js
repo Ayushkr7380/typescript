@@ -31,6 +31,32 @@ function val(num) {
 val(12);
 //actual approch 
 function value1(num) {
-    return num;
+    return num; //In this example i have mentioned the type which i am returning..
 }
 value1(10);
+//with arrow function
+var name = function (nn) {
+    return nn;
+};
+name('ayush');
+//array 
+//typescript is smart enough to detect that the value inside the array are strings..
+var heros = ['spiderman', 'batman', 'ironman'];
+heros.map(function (hero) {
+    return "".concat(hero, " is best");
+});
+//we can return anything like number, boolean , string ..etc..
+var villians = ['ultron', 'joker', 'humans'];
+villians.map(function (vil) {
+    return 12;
+});
+//Also typescript is smart enough to detect which value is number ,string,boolean etc..
+var mixture = [12, 'ayush', true];
+mixture.map(function (mix) {
+    return mix;
+});
+//Typescript is smart but we can explicitly mention the type ..
+var set1 = ['ayush', 'abhijeet', 'lucky', 'atul'];
+set1.map(function (s) {
+    return s;
+});
