@@ -60,3 +60,9 @@ var set1 = ['ayush', 'abhijeet', 'lucky', 'atul'];
 set1.map(function (s) {
     return s;
 });
+//void type
+//we can set the type to void in a function if we do not want to return anything ..
+function voidexample(val) {
+    console.log(val);
+}
+voidexample("ayush");
