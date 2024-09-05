@@ -13,4 +13,17 @@ function number1(s1:number){
 }
 number1(12.5657);
 
+function name1(name:string){
+    return name.toUpperCase()
+}
+name1("ayush");
+
+//arrow function
+let data = (name:string,roll:string,phone:number) =>{}
+data("ayush","215ayush",123);
+
+//arrow function with default value
+let defdata = (name:string,phone:number,city:string ="muzaffarpur") =>{}
+defdata("ayush",123);
+
 export {}
