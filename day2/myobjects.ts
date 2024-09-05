@@ -15,4 +15,12 @@ function createCourse():{name:string,email:string}{
 }
 createCourse();
 
+//Odd behaviour of object..
+function oddBehaviour({name:string,isValid:boolean}){}
+// oddBehaviour({name:'ayush',isValid:true,email:"a@a.com"})//now if you wan to add email like this then it will give you an error
+//for this what we can do is , we can store the object in a variable like this.
+
+let newUser = {name:'ayush',isValid:true,email:"a@a.com"}
+oddBehaviour(newUser);//Now the error is gone..
+
 export {}

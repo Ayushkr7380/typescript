@@ -15,3 +15,11 @@ function createCourse() {
     return { name: 'ayush', email: 'a@a.com' };
 }
 createCourse();
+//Odd behaviour of object..
+function oddBehaviour(_a) {
+    var string = _a.name, boolean = _a.isValid;
+}
+// oddBehaviour({name:'ayush',isValid:true,email:"a@a.com"})//now if you wan to add email like this then it will give you an error
+//for this what we can do is , we can store the object in a variable like this.
+var newUser = { name: 'ayush', isValid: true, email: "a@a.com" };
+oddBehaviour(newUser); //Now the error is gone..
