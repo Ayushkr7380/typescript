@@ -9,5 +9,10 @@ const user = {
 function createUser({name:string,isValid:boolean}){}
 createUser({name:'ayush',isValid:true})
 
+//returning object from a function
+function createCourse():{name:string,email:string}{
+    return {name:'ayush',email:'a@a.com'}
+}
+createCourse();
 
 export {}

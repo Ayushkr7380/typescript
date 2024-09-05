@@ -10,3 +10,8 @@ function createUser(_a) {
     var string = _a.name, boolean = _a.isValid;
 }
 createUser({ name: 'ayush', isValid: true });
+//returning object from a function
+function createCourse() {
+    return { name: 'ayush', email: 'a@a.com' };
+}
+createCourse();
