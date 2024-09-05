@@ -66,3 +66,6 @@ function voidexample(val) {
     console.log(val);
 }
 voidexample("ayush");
+function consoleError(errMsg) {
+    console.log(errMsg);
+}

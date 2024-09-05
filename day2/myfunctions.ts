@@ -75,4 +75,9 @@ function voidexample(val:string):void{
     console.log(val)
 }
 voidexample("ayush")
+
+function consoleError(errMsg:string):void{
+    console.log(errMsg);
+}
+
 export {}
