@@ -67,5 +67,12 @@ mixture.map(mix=>{
 const set1 = ['ayush','abhijeet','lucky','atul'];
 set1.map((s:string)=>{
     return s;
-})
+});
+
+//void type
+//we can set the type to void in a function if we do not want to return anything ..
+function voidexample(val:string):void{
+    console.log(val)
+}
+voidexample("ayush")
 export {}
