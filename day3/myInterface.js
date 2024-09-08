@@ -12,4 +12,7 @@ var data = {
     startTrail1: function () {
         return 123;
     },
+    getCoupon: function (name) {
+        return 10;
+    }
 };

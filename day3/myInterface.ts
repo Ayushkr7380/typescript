@@ -6,6 +6,7 @@ interface user {
     isActive : boolean,
     startTrail : () => string //we can pass function inside the interface..
     startTrail1(): number //we can also pass function like this in the interface..
+    getCoupon(couponName:string):number
 }
 
 let data : user = {
@@ -17,8 +18,11 @@ let data : user = {
     startTrail : ()=>{
         return "i am string"
     },
-    startTrail1() {
+    startTrail1:()=> {
         return 123
     },
+    getCoupon :(name : "ayush10")=>{
+        return 10
+    }
 }
 export {} 
