@@ -19,4 +19,28 @@ function data(name : string | number ){
 data('Ayush');
 data(0);
 
+
+type User = {
+    name : string;
+    address : string;
+}
+
+type Admin = {
+    id : string;
+    name : string;
+}
+
+let ayush : Admin | User ;
+//User Data
+ayush = {
+    name : 'ayush',
+    address : 'Muz'
+}
+
+//Admin Data
+ayush = {
+    id : '123',
+    name : 'ayush'
+}
+
 export {}

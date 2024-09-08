@@ -15,3 +15,14 @@ function data(name) {
 }
 data('Ayush');
 data(0);
+var ayush;
+//User Data
+ayush = {
+    name: 'ayush',
+    address: 'Muz'
+};
+//Admin Data
+ayush = {
+    id: '123',
+    name: 'ayush'
+};
