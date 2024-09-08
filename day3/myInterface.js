@@ -14,5 +14,6 @@ var data = {
     },
     getCoupon: function (name) {
         return 10;
-    }
+    },
+    isAdmin: false
 };

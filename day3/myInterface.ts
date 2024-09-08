@@ -9,6 +9,13 @@ interface user {
     getCoupon(couponName:string):number
 }
 
+//we can add additional data to interface by create another interface with the same name ...
+
+interface user{
+    isAdmin : boolean
+}
+
+
 let data : user = {
     _id : "123432",
     name : 'ayush',
@@ -23,6 +30,10 @@ let data : user = {
     },
     getCoupon :(name : "ayush10")=>{
         return 10
-    }
+    },
+    isAdmin : false
 }
+
+
+
 export {} 
