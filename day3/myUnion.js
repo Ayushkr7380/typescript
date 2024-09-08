@@ -26,3 +26,8 @@ ayush = {
     id: '123',
     name: 'ayush'
 };
+//In array
+var heroData = ['ayush', 'Lucky', 'Abhijeet'];
+var heroId = [1, 2, 3];
+var mix = ['ayush', 'ayush'];
+var mix1 = [1, 2, 3];

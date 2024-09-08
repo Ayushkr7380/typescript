@@ -43,4 +43,12 @@ ayush = {
     name : 'ayush'
 }
 
+
+//In array
+
+const heroData : string[] = ['ayush','Lucky','Abhijeet'];
+const heroId : number[] = [1,2,3];
+const mix : number[] | string[] = ['ayush','ayush'];
+const mix1 : (number | string)[] = [1,2,3]
+
 export {}
