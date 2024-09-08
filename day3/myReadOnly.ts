@@ -19,5 +19,21 @@ userData.name = 'abhijeet'
 
 // userData._id = '1234'
 
+//let's do the same things but this time pass the object into a function..
+function userData1(u:User){
+    console.log (
+        u._id,
+        u.name,
+        u.email,
+        u.isActive
+    )
+}
+userData1({
+    _id:'123',
+    name:'ayush',
+    email:'a@a.com',
+    isActive:true
+})
+
 
 export {}
