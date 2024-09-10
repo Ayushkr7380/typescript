@@ -5,3 +5,5 @@ user[0] = 54;
 
 type stuData = [number,string,string];
 let details : stuData = [1,'ayush','a']
+
+
