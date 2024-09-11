@@ -32,4 +32,13 @@ console.log(obj1.email); //Here we can easily log email as it is not set private
 
 // console.log(obj1.id); // Here we can not log the id as we have set it as private..so it is not accessible inside the class itself.. 
 
+//WE WILL SEE LESS CODE LIKE THE CODE I HAVE WRITTEN ABOVE AND CREATED CLASSES..
+class User3{
+    constructor(public email : string,name : string,private id : string){
+        console.log(`My email id is ${email} , name is ${name} and id is ${id}`)
+    }
+}
+
+const obj3 = new User3('ayush@34.com','Ayush','12');
+
 export {}
