@@ -12,10 +12,12 @@ class User {
 const obj = new User('a@a.com','ayush');
 console.log(obj);
 
-//private and public in typescript classes
+//private and public keyword in typescript classes
 class User1{
-    email : string
-    name : string
+    public email : string //Here we have marked email as public 
+    
+    name : string //Here we have not marked it as public or private but it is considered as public bydefault 
+
     private id : string
     constructor(email : string , name : string , id : string ){
         this.email = email
@@ -25,7 +27,9 @@ class User1{
 }
 
 const obj1 = new User1('ayush@123.com','ayush','123');
+
 console.log(obj1.email); //Here we can easily log email as it is not set private..
+
 // console.log(obj1.id); // Here we can not log the id as we have set it as private..so it is not accessible inside the class itself.. 
 
 export {}

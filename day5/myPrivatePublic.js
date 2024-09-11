@@ -11,7 +11,7 @@ var User = /** @class */ (function () {
 }());
 var obj = new User('a@a.com', 'ayush');
 console.log(obj);
-//private and public in typescript classes
+//private and public keyword in typescript classes
 var User1 = /** @class */ (function () {
     function User1(email, name, id) {
         this.email = email;
