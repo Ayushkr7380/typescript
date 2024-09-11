@@ -16,6 +16,11 @@ var User = /** @class */ (function () {
         enumerable: false,
         configurable: true
     });
+    //We can also create private or public methods ..
+    //For some reasons if we want to access the method only in the class then we can create something like this ...
+    class_1.prototype.deleteToken = function () {
+        console.log("Token Deleted...");
+    };
     return class_1;
 }());
 var obj = new User('ayush', 'ayush@gmail.com');
