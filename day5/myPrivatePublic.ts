@@ -15,10 +15,10 @@ console.log(obj);
 //private and public keyword in typescript classes
 class User1{
     public email : string //Here we have marked email as public 
-    
+
     name : string //Here we have not marked it as public or private but it is considered as public bydefault 
 
-    private id : string
+    private id : string //We can marked private using "#" also like "#id"..
     constructor(email : string , name : string , id : string ){
         this.email = email
         this.name = name
