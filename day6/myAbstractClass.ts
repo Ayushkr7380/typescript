@@ -14,6 +14,11 @@ abstract class User{
 
     //We can also create abstract method which must be implemented by derived class..
     abstract allDetails():string
+
+    //Contrete Method ..
+    goodmorning():string{
+        return "Heloo Everyone.."
+    }
 }
 
  //The Following line will throw an error because User is an abstract class.
@@ -37,4 +42,6 @@ class UserSon extends User{
 
 const obj1 = new UserSon("ayush","ayush@gmail.com",1234);
 console.log(obj1.greet);
+console.log(obj1.allDetails);
+console.log(obj1.goodmorning);
 export {} 

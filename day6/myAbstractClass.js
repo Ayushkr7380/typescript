@@ -23,6 +23,10 @@ var User = /** @class */ (function () {
         this.name = name;
         this.email = email;
     }
+    //Contrete Method ..
+    User.prototype.goodmorning = function () {
+        return "Heloo Everyone..";
+    };
     return User;
 }());
 //The Following line will throw an error because User is an abstract class.
@@ -50,3 +54,5 @@ var UserSon = /** @class */ (function (_super) {
 }(User));
 var obj1 = new UserSon("ayush", "ayush@gmail.com", 1234);
 console.log(obj1.greet);
+console.log(obj1.allDetails);
+console.log(obj1.goodmorning);
