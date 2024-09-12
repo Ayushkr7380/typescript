@@ -13,5 +13,15 @@ abstract class User{
     }
 }
 
-// const obj1 = new User("ayush","ayush@gmail.com"); //Here we are not able to create object of this class as this class is abstract class..
+ //The Following line will throw an error because User is an abstract class.
+// const obj1 = new User("ayush","ayush@gmail.com");
+
+class UserSon extends User{
+    get greet():string{
+        return `Hello ${this.name}`
+    }
+}
+
+const obj1 = new UserSon("ayush","ayush@gmail.com");
+console.log(obj1.greet);
 export {} 
