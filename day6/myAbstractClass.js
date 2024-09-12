@@ -29,8 +29,12 @@ var User = /** @class */ (function () {
 // const obj1 = new User("ayush","ayush@gmail.com");
 var UserSon = /** @class */ (function (_super) {
     __extends(UserSon, _super);
-    function UserSon() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function UserSon(name, email, aadhaar) {
+        var _this = _super.call(this, name, email) || this;
+        _this.name = name;
+        _this.email = email;
+        _this.aadhaar = aadhaar;
+        return _this;
     }
     Object.defineProperty(UserSon.prototype, "greet", {
         get: function () {
@@ -39,7 +43,10 @@ var UserSon = /** @class */ (function (_super) {
         enumerable: false,
         configurable: true
     });
+    UserSon.prototype.allDetails = function () {
+        return "I am ".concat(this.name, " and my email is ").concat(this.email);
+    };
     return UserSon;
 }(User));
-var obj1 = new UserSon("ayush", "ayush@gmail.com");
+var obj1 = new UserSon("ayush", "ayush@gmail.com", 1234);
 console.log(obj1.greet);
