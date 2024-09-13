@@ -32,3 +32,4 @@ function identityFour(val) {
 identityFour("ayush");
 identityFour(4545);
 identityFour(true);
+identityFour(false);

@@ -38,3 +38,4 @@ function identityFour<T>(val:T):T{
 identityFour("ayush");
 identityFour(4545);
 identityFour(true);
+identityFour(false);
